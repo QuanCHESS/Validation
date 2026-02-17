@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Engine Tournament PRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard.min.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="board"></div>
+    <div id="sidebar">
+        <button onclick="startGame()">Start Match</button>
+        <pre id="pgn"></pre>
+        <h3 id="elo"></h3>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
