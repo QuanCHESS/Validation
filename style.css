@@ -1,0 +1,28 @@
+body {
+    background: #302e2b;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    margin-top: 30px;
+}
+
+#board {
+    width: 500px;
+}
+
+#sidebar {
+    margin-left: 20px;
+}
+
+button {
+    background: #769656;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
